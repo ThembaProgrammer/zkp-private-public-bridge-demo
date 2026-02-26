@@ -1,0 +1,17 @@
+{
+  "name": "zkp-bridge-private-chain",
+  "version": "1.0.0",
+  "description": "GoQuorum private chain deployment scripts",
+  "scripts": {
+    "deploy-governance": "ts-node scripts/deploy-governance.ts"
+  },
+  "dependencies": {
+    "ethers":  "^6.11.0",
+    "dotenv":  "^16.4.0"
+  },
+  "devDependencies": {
+    "typescript":  "^5.4.0",
+    "ts-node":     "^10.9.2",
+    "@types/node": "^20.0.0"
+  }
+}

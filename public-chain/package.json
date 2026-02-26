@@ -1,0 +1,21 @@
+{
+  "name": "zkp-bridge-public-chain",
+  "version": "1.0.0",
+  "description": "Public Hardhat chain — ZKP cross-chain bridge",
+  "scripts": {
+    "compile":  "hardhat compile",
+    "node":     "hardhat node --port 8546",
+    "deploy":   "hardhat run scripts/deploy.ts --network localhost",
+    "test":     "hardhat test"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox":  "^5.0.0",
+    "@nomicfoundation/hardhat-ethers":   "^3.0.0",
+    "@openzeppelin/contracts":           "^5.0.0",
+    "hardhat":                           "^2.22.0",
+    "typescript":                        "^5.4.0",
+    "ts-node":                           "^10.9.2",
+    "@types/node":                       "^20.0.0",
+    "dotenv":                            "^16.4.0"
+  }
+}
