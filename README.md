@@ -21,6 +21,12 @@
 
 ---
 
+## Based on the article
+
+> **https://medium.com/@thembalakhengcongo/bridging-the-secret-transparency-how-i-use-zero-knowledge-proof-zkp-to-link-private-and-public-6b5a68986dd9**
+
+---
+
 ## The Idea
 
 A house cannot be tokenised by one person's word alone.
@@ -156,7 +162,8 @@ ZKP/
 ## Quickstart — One Command
 
 ```bash
-git clone <YOUR_REPO_URL> zkp-bridge && cd zkp-bridge
+git clone https://github.com/ThembaProgrammer/zkp-private-public-bridge-demo
+cd zkp-bridge
 cp .env.example .env        # fill in your keys (see .env.example)
 chmod +x demo.sh && ./demo.sh
 ```
@@ -170,7 +177,7 @@ chmod +x demo.sh && ./demo.sh
 ### Step 0 — Clone & configure
 
 ```bash
-git clone <YOUR_REPO_URL> zkp-bridge
+git clone https://github.com/ThembaProgrammer/zkp-private-public-bridge-demo
 cd zkp-bridge
 cp .env.example .env
 ```
@@ -485,16 +492,15 @@ POLL_INTERVAL_MS=3000
 | Mint idempotency | ✅ | `minted[houseId]` mapping prevents double-minting |
 | Role access control | ✅ | `onlyAgent`, `onlyBank`, `onlyHousingDept` modifiers on all approval functions |
 
----
-
-## Based on the article
-
-> **[INSERT YOUR MEDIUM URL HERE]**
 
 ---
 
 <div align="center">
 
-Made with cryptographic precision &nbsp;·&nbsp; MIT License
+**Built with ❤️ for the Web3 Community**
+
+*Empowering communities through decentralized finance*
+
+[Website](https://yourproject.com) • [Documentation](./docs) • [Twitter](https://twitter.com/yourproject) • [Discord](https://discord.gg/yourserver)
 
 </div>
